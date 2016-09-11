@@ -4,3 +4,26 @@ Single linked list or so-called linked list consists of individual elements, whi
 This image below is the illustrate of single linked list with relational elements
 
 ![Image of Diagram](https://github.com/rizalasrul/c-single-linked-list/blob/master/Images/1.png)
+
+Conceptually, a linked list is a row of adjoining elements. However, because such elements are allocated dynamically (using malloc), it is important to remember that fact, linked list will be scattered like a memory location in image below. Pointer of the element to the mean as a guarantor that all the elements are accessible.
+
+![Image of Diagram](https://github.com/rizalasrul/c-single-linked-list/blob/master/Images/2.png)
+
+In C, this is the representation node syntac for data structure
+```c
+struct node{
+	int data;
+	struct node *next;
+};
+
+typedef struct node Node;
+```
+From the syntax above, `node` include:
+* `data` information.
+* `next` pointer that refer to `node` object.
+
+# How This Code Work
+## prog1.c
+will be updated soon
+## prog2.c
+will be updated soon
